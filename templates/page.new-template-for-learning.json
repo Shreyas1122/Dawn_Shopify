@@ -9,15 +9,85 @@
  */
 {
   "sections": {
+    "rich_text_xEjiUV": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Hf8qND": {
+          "type": "heading",
+          "settings": {
+            "heading": "Object",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Hf8qND"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "custom_liquid_BxXMxy": {
+      "type": "custom-liquid",
+      "custom_css": [],
+      "settings": {
+        "custom_liquid": "{{page.title}}",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "rich_text_Wjm3Rp": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_AnEzVG": {
+          "type": "heading",
+          "settings": {
+            "heading": "Tags",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_AnEzVG"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "custom_liquid_jKQfaL": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{% if page.title==\"Contact\" %}\n  This is a Page title my dear \n{% endif %}",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
-    "main"
+    "rich_text_xEjiUV",
+    "main",
+    "custom_liquid_BxXMxy",
+    "rich_text_Wjm3Rp",
+    "custom_liquid_jKQfaL"
   ]
 }
