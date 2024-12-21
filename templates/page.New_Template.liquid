@@ -2,6 +2,22 @@
 <div class="Inside_First_Template">
   {% assign first_var = "Wecome to shreyas store Audiences" %}
   {{ first_var }}
+  {% assign statement_1="Operators in Liquid Coding" %}
+  <br>
+  1)Addition 
+  {{ statement_1 }}
+  {% assign num_1 = 20 %}
+  {% assign num_2 = 40 %}
+ {{ num_1 |plus:num_2 }}
+  2)Subtraction 
+  {{ num_2|minus:num_1 }}
+  3)Multiplication
+  {{ num_1|times:num_2 }}
+  4)Division
+  {{ num_1 | divided_by: num_2 }}
+  
+  
+  
   
 </div>
 </div>
