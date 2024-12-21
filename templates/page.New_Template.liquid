@@ -23,7 +23,7 @@
   {% comment %}
     Conditional Operators
   {% endcomment %}
-If condition<br>
+If condition with if elsif and else <br>
   {% if num_1 == 21 %}
     The value of num_1 is 20
     {% elsif num_2 == 40 %}
@@ -31,6 +31,15 @@ If condition<br>
     {% else %}
     the value is in the else part
   {% endif %}
+  <br>
+  If condition with Nested If and Else
+  {% if  num_2 == 40%}
+    {% if num_1== 20 %}
+      I am inside the nested if
+      {% else %}
+      I am in nested else
+      {% endif %}}
+   {% endif %}
   
   
   
