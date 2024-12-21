@@ -4,15 +4,19 @@
   {{ first_var }}
   {% assign statement_1="Operators in Liquid Coding" %}
   <br>
+    {{ statement_1 }}<br>
   1)Addition 
-  {{ statement_1 }}
+<br>
   {% assign num_1 = 20 %}
   {% assign num_2 = 40 %}
  {{ num_1 |plus:num_2 }}
+  <br>
   2)Subtraction 
   {{ num_2|minus:num_1 }}
+  <br>
   3)Multiplication
   {{ num_1|times:num_2 }}
+  <br>
   4)Division
   {{ num_1 | divided_by: num_2 }}
   
